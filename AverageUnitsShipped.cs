@@ -53,7 +53,7 @@ namespace AverageUnitsShipped
                 {
                     // The entry is valid.
                     // Add the newest entry to the list of past entries.
-                    textboxPastEntries.Text += lastEntry + "\r\n";
+                    textboxEmployee1PastEntries.Text += lastEntry + "\r\n";
                     // Increment runningTotal by the entry.
                     runningTotal += lastEntry;
                     
@@ -113,7 +113,7 @@ namespace AverageUnitsShipped
         {
             // Clear the input and output fields.
             textboxEntryNumbers.Clear();
-            textboxPastEntries.Clear();
+            textboxEmployee1PastEntries.Clear();
             labelAverageOutput.Text = String.Empty;
 
             // Reset global variable.
