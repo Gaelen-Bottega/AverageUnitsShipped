@@ -33,14 +33,14 @@ namespace AverageUnitsShipped
             this.labelUnitsPrompt = new System.Windows.Forms.Label();
             this.textboxEntryNumbers = new System.Windows.Forms.TextBox();
             this.labelDay = new System.Windows.Forms.Label();
-            this.textboxEmployee1PastEntries = new System.Windows.Forms.TextBox();
+            this.textBoxEmployee1PastEntries = new System.Windows.Forms.TextBox();
             this.labelAverageOutput = new System.Windows.Forms.Label();
             this.buttonEnter = new System.Windows.Forms.Button();
             this.buttonReset = new System.Windows.Forms.Button();
             this.buttonExit = new System.Windows.Forms.Button();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.textboxEmployee2PastEntries = new System.Windows.Forms.TextBox();
-            this.textboxEmployee3PastEntries = new System.Windows.Forms.TextBox();
+            this.textBoxEmployee2PastEntries = new System.Windows.Forms.TextBox();
+            this.textBoxEmployee3PastEntries = new System.Windows.Forms.TextBox();
             this.labelAverageEmployee1 = new System.Windows.Forms.Label();
             this.labelEmployee1Title = new System.Windows.Forms.Label();
             this.labelEmployee2Title = new System.Windows.Forms.Label();
@@ -75,14 +75,14 @@ namespace AverageUnitsShipped
             // 
             // textboxEmployee1PastEntries
             // 
-            this.textboxEmployee1PastEntries.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textboxEmployee1PastEntries.Location = new System.Drawing.Point(12, 86);
-            this.textboxEmployee1PastEntries.Multiline = true;
-            this.textboxEmployee1PastEntries.Name = "textboxEmployee1PastEntries";
-            this.textboxEmployee1PastEntries.ReadOnly = true;
-            this.textboxEmployee1PastEntries.Size = new System.Drawing.Size(141, 176);
-            this.textboxEmployee1PastEntries.TabIndex = 3;
-            this.toolTip.SetToolTip(this.textboxEmployee1PastEntries, "Displays the units shipped for all days entered for Employee 1.");
+            this.textBoxEmployee1PastEntries.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.textBoxEmployee1PastEntries.Location = new System.Drawing.Point(12, 86);
+            this.textBoxEmployee1PastEntries.Multiline = true;
+            this.textBoxEmployee1PastEntries.Name = "textboxEmployee1PastEntries";
+            this.textBoxEmployee1PastEntries.ReadOnly = true;
+            this.textBoxEmployee1PastEntries.Size = new System.Drawing.Size(141, 176);
+            this.textBoxEmployee1PastEntries.TabIndex = 3;
+            this.toolTip.SetToolTip(this.textBoxEmployee1PastEntries, "Displays the units shipped for all days entered for Employee 1.");
             // 
             // labelAverageOutput
             // 
@@ -130,25 +130,25 @@ namespace AverageUnitsShipped
             // 
             // textboxEmployee2PastEntries
             // 
-            this.textboxEmployee2PastEntries.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textboxEmployee2PastEntries.Location = new System.Drawing.Point(171, 86);
-            this.textboxEmployee2PastEntries.Multiline = true;
-            this.textboxEmployee2PastEntries.Name = "textboxEmployee2PastEntries";
-            this.textboxEmployee2PastEntries.ReadOnly = true;
-            this.textboxEmployee2PastEntries.Size = new System.Drawing.Size(141, 176);
-            this.textboxEmployee2PastEntries.TabIndex = 10;
-            this.toolTip.SetToolTip(this.textboxEmployee2PastEntries, "Displays the units shipped for all days entered for Employee 2.");
+            this.textBoxEmployee2PastEntries.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.textBoxEmployee2PastEntries.Location = new System.Drawing.Point(171, 86);
+            this.textBoxEmployee2PastEntries.Multiline = true;
+            this.textBoxEmployee2PastEntries.Name = "textboxEmployee2PastEntries";
+            this.textBoxEmployee2PastEntries.ReadOnly = true;
+            this.textBoxEmployee2PastEntries.Size = new System.Drawing.Size(141, 176);
+            this.textBoxEmployee2PastEntries.TabIndex = 10;
+            this.toolTip.SetToolTip(this.textBoxEmployee2PastEntries, "Displays the units shipped for all days entered for Employee 2.");
             // 
             // textboxEmployee3PastEntries
             // 
-            this.textboxEmployee3PastEntries.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textboxEmployee3PastEntries.Location = new System.Drawing.Point(327, 86);
-            this.textboxEmployee3PastEntries.Multiline = true;
-            this.textboxEmployee3PastEntries.Name = "textboxEmployee3PastEntries";
-            this.textboxEmployee3PastEntries.ReadOnly = true;
-            this.textboxEmployee3PastEntries.Size = new System.Drawing.Size(141, 176);
-            this.textboxEmployee3PastEntries.TabIndex = 13;
-            this.toolTip.SetToolTip(this.textboxEmployee3PastEntries, "Displays the units shipped for all days entered for Employee 3.");
+            this.textBoxEmployee3PastEntries.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.textBoxEmployee3PastEntries.Location = new System.Drawing.Point(327, 86);
+            this.textBoxEmployee3PastEntries.Multiline = true;
+            this.textBoxEmployee3PastEntries.Name = "textboxEmployee3PastEntries";
+            this.textBoxEmployee3PastEntries.ReadOnly = true;
+            this.textBoxEmployee3PastEntries.Size = new System.Drawing.Size(141, 176);
+            this.textBoxEmployee3PastEntries.TabIndex = 13;
+            this.toolTip.SetToolTip(this.textBoxEmployee3PastEntries, "Displays the units shipped for all days entered for Employee 3.");
             // 
             // labelAverageEmployee1
             // 
@@ -213,17 +213,17 @@ namespace AverageUnitsShipped
             this.ClientSize = new System.Drawing.Size(480, 386);
             this.Controls.Add(this.labelEmployee3Title);
             this.Controls.Add(this.labelAverageEmployee3);
-            this.Controls.Add(this.textboxEmployee3PastEntries);
+            this.Controls.Add(this.textBoxEmployee3PastEntries);
             this.Controls.Add(this.labelEmployee2Title);
             this.Controls.Add(this.labelAverageEmployee2);
-            this.Controls.Add(this.textboxEmployee2PastEntries);
+            this.Controls.Add(this.textBoxEmployee2PastEntries);
             this.Controls.Add(this.labelEmployee1Title);
             this.Controls.Add(this.labelAverageEmployee1);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonReset);
             this.Controls.Add(this.buttonEnter);
             this.Controls.Add(this.labelAverageOutput);
-            this.Controls.Add(this.textboxEmployee1PastEntries);
+            this.Controls.Add(this.textBoxEmployee1PastEntries);
             this.Controls.Add(this.labelDay);
             this.Controls.Add(this.textboxEntryNumbers);
             this.Controls.Add(this.labelUnitsPrompt);
@@ -242,7 +242,7 @@ namespace AverageUnitsShipped
         private System.Windows.Forms.Label labelUnitsPrompt;
         private System.Windows.Forms.TextBox textboxEntryNumbers;
         private System.Windows.Forms.Label labelDay;
-        private System.Windows.Forms.TextBox textboxEmployee1PastEntries;
+        private System.Windows.Forms.TextBox textBoxEmployee1PastEntries;
         private System.Windows.Forms.Label labelAverageOutput;
         private System.Windows.Forms.Button buttonEnter;
         private System.Windows.Forms.Button buttonReset;
@@ -252,10 +252,10 @@ namespace AverageUnitsShipped
         private System.Windows.Forms.Label labelEmployee1Title;
         private System.Windows.Forms.Label labelEmployee2Title;
         private System.Windows.Forms.Label labelAverageEmployee2;
-        private System.Windows.Forms.TextBox textboxEmployee2PastEntries;
+        private System.Windows.Forms.TextBox textBoxEmployee2PastEntries;
         private System.Windows.Forms.Label labelEmployee3Title;
         private System.Windows.Forms.Label labelAverageEmployee3;
-        private System.Windows.Forms.TextBox textboxEmployee3PastEntries;
+        private System.Windows.Forms.TextBox textBoxEmployee3PastEntries;
     }
 }
 
