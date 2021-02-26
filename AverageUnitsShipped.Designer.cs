@@ -54,7 +54,7 @@ namespace AverageUnitsShipped
             this.labelUnitsPrompt.Location = new System.Drawing.Point(12, 38);
             this.labelUnitsPrompt.Name = "labelUnitsPrompt";
             this.labelUnitsPrompt.Size = new System.Drawing.Size(38, 27);
-            this.labelUnitsPrompt.TabIndex = 0;
+            this.labelUnitsPrompt.TabIndex = 1;
             this.labelUnitsPrompt.Text = "&Units:";
             // 
             // textboxEntryNumbers
@@ -62,7 +62,7 @@ namespace AverageUnitsShipped
             this.textboxEntryNumbers.Location = new System.Drawing.Point(56, 35);
             this.textboxEntryNumbers.Name = "textboxEntryNumbers";
             this.textboxEntryNumbers.Size = new System.Drawing.Size(75, 20);
-            this.textboxEntryNumbers.TabIndex = 1;
+            this.textboxEntryNumbers.TabIndex = 2;
             this.toolTip.SetToolTip(this.textboxEntryNumbers, "Enter the units shipped for the specified day.");
             // 
             // labelDay
@@ -70,18 +70,19 @@ namespace AverageUnitsShipped
             this.labelDay.Location = new System.Drawing.Point(12, 9);
             this.labelDay.Name = "labelDay";
             this.labelDay.Size = new System.Drawing.Size(50, 23);
-            this.labelDay.TabIndex = 2;
-            this.labelDay.Text = "Day 1";
+            this.labelDay.TabIndex = 0;
+            this.labelDay.Text = "Day: 1";
+            this.toolTip.SetToolTip(this.labelDay, "The current day that a user is entering units for.");
             // 
-            // textboxEmployee1PastEntries
+            // textBoxEmployee1PastEntries
             // 
             this.textBoxEmployee1PastEntries.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.textBoxEmployee1PastEntries.Location = new System.Drawing.Point(12, 86);
             this.textBoxEmployee1PastEntries.Multiline = true;
-            this.textBoxEmployee1PastEntries.Name = "textboxEmployee1PastEntries";
+            this.textBoxEmployee1PastEntries.Name = "textBoxEmployee1PastEntries";
             this.textBoxEmployee1PastEntries.ReadOnly = true;
             this.textBoxEmployee1PastEntries.Size = new System.Drawing.Size(141, 176);
-            this.textBoxEmployee1PastEntries.TabIndex = 3;
+            this.textBoxEmployee1PastEntries.TabIndex = 6;
             this.toolTip.SetToolTip(this.textBoxEmployee1PastEntries, "Displays the units shipped for all days entered for Employee 1.");
             // 
             // labelAverageOutput
@@ -90,16 +91,16 @@ namespace AverageUnitsShipped
             this.labelAverageOutput.Location = new System.Drawing.Point(12, 304);
             this.labelAverageOutput.Name = "labelAverageOutput";
             this.labelAverageOutput.Size = new System.Drawing.Size(456, 23);
-            this.labelAverageOutput.TabIndex = 4;
+            this.labelAverageOutput.TabIndex = 12;
             this.labelAverageOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.toolTip.SetToolTip(this.labelAverageOutput, "Displays the calculated average of units shipped for the week.");
+            this.toolTip.SetToolTip(this.labelAverageOutput, "Displays the calculated average of units shipped for the week for all employees.");
             // 
             // buttonEnter
             // 
             this.buttonEnter.Location = new System.Drawing.Point(17, 346);
             this.buttonEnter.Name = "buttonEnter";
             this.buttonEnter.Size = new System.Drawing.Size(138, 23);
-            this.buttonEnter.TabIndex = 5;
+            this.buttonEnter.TabIndex = 13;
             this.buttonEnter.Text = "&Enter";
             this.toolTip.SetToolTip(this.buttonEnter, "Click to process the current units shipped.");
             this.buttonEnter.UseVisualStyleBackColor = true;
@@ -111,7 +112,7 @@ namespace AverageUnitsShipped
             this.buttonReset.Location = new System.Drawing.Point(171, 346);
             this.buttonReset.Name = "buttonReset";
             this.buttonReset.Size = new System.Drawing.Size(138, 23);
-            this.buttonReset.TabIndex = 6;
+            this.buttonReset.TabIndex = 14;
             this.buttonReset.Text = "&Reset";
             this.toolTip.SetToolTip(this.buttonReset, "Click to reset this form to allow for a new weeks of entries. ");
             this.buttonReset.UseVisualStyleBackColor = true;
@@ -122,32 +123,32 @@ namespace AverageUnitsShipped
             this.buttonExit.Location = new System.Drawing.Point(328, 346);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(138, 23);
-            this.buttonExit.TabIndex = 7;
+            this.buttonExit.TabIndex = 15;
             this.buttonExit.Text = "E&xit";
             this.toolTip.SetToolTip(this.buttonExit, "Click to end the application.");
             this.buttonExit.UseVisualStyleBackColor = true;
             this.buttonExit.Click += new System.EventHandler(this.ButtonExitClick);
             // 
-            // textboxEmployee2PastEntries
+            // textBoxEmployee2PastEntries
             // 
             this.textBoxEmployee2PastEntries.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.textBoxEmployee2PastEntries.Location = new System.Drawing.Point(171, 86);
             this.textBoxEmployee2PastEntries.Multiline = true;
-            this.textBoxEmployee2PastEntries.Name = "textboxEmployee2PastEntries";
+            this.textBoxEmployee2PastEntries.Name = "textBoxEmployee2PastEntries";
             this.textBoxEmployee2PastEntries.ReadOnly = true;
             this.textBoxEmployee2PastEntries.Size = new System.Drawing.Size(141, 176);
-            this.textBoxEmployee2PastEntries.TabIndex = 10;
+            this.textBoxEmployee2PastEntries.TabIndex = 7;
             this.toolTip.SetToolTip(this.textBoxEmployee2PastEntries, "Displays the units shipped for all days entered for Employee 2.");
             // 
-            // textboxEmployee3PastEntries
+            // textBoxEmployee3PastEntries
             // 
             this.textBoxEmployee3PastEntries.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.textBoxEmployee3PastEntries.Location = new System.Drawing.Point(327, 86);
             this.textBoxEmployee3PastEntries.Multiline = true;
-            this.textBoxEmployee3PastEntries.Name = "textboxEmployee3PastEntries";
+            this.textBoxEmployee3PastEntries.Name = "textBoxEmployee3PastEntries";
             this.textBoxEmployee3PastEntries.ReadOnly = true;
             this.textBoxEmployee3PastEntries.Size = new System.Drawing.Size(141, 176);
-            this.textBoxEmployee3PastEntries.TabIndex = 13;
+            this.textBoxEmployee3PastEntries.TabIndex = 8;
             this.toolTip.SetToolTip(this.textBoxEmployee3PastEntries, "Displays the units shipped for all days entered for Employee 3.");
             // 
             // labelAverageEmployee1
@@ -156,15 +157,16 @@ namespace AverageUnitsShipped
             this.labelAverageEmployee1.Location = new System.Drawing.Point(12, 269);
             this.labelAverageEmployee1.Name = "labelAverageEmployee1";
             this.labelAverageEmployee1.Size = new System.Drawing.Size(141, 23);
-            this.labelAverageEmployee1.TabIndex = 8;
+            this.labelAverageEmployee1.TabIndex = 9;
             this.labelAverageEmployee1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.toolTip.SetToolTip(this.labelAverageEmployee1, "Displays average of Employee 1.");
             // 
             // labelEmployee1Title
             // 
             this.labelEmployee1Title.Location = new System.Drawing.Point(12, 58);
             this.labelEmployee1Title.Name = "labelEmployee1Title";
             this.labelEmployee1Title.Size = new System.Drawing.Size(141, 23);
-            this.labelEmployee1Title.TabIndex = 9;
+            this.labelEmployee1Title.TabIndex = 3;
             this.labelEmployee1Title.Text = "Employee &1";
             this.labelEmployee1Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -173,7 +175,7 @@ namespace AverageUnitsShipped
             this.labelEmployee2Title.Location = new System.Drawing.Point(171, 58);
             this.labelEmployee2Title.Name = "labelEmployee2Title";
             this.labelEmployee2Title.Size = new System.Drawing.Size(141, 23);
-            this.labelEmployee2Title.TabIndex = 12;
+            this.labelEmployee2Title.TabIndex = 4;
             this.labelEmployee2Title.Text = "Employee &2";
             this.labelEmployee2Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -183,15 +185,16 @@ namespace AverageUnitsShipped
             this.labelAverageEmployee2.Location = new System.Drawing.Point(171, 269);
             this.labelAverageEmployee2.Name = "labelAverageEmployee2";
             this.labelAverageEmployee2.Size = new System.Drawing.Size(141, 23);
-            this.labelAverageEmployee2.TabIndex = 11;
+            this.labelAverageEmployee2.TabIndex = 10;
             this.labelAverageEmployee2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.toolTip.SetToolTip(this.labelAverageEmployee2, "Displays average of Employee 2.");
             // 
             // labelEmployee3Title
             // 
             this.labelEmployee3Title.Location = new System.Drawing.Point(327, 58);
             this.labelEmployee3Title.Name = "labelEmployee3Title";
             this.labelEmployee3Title.Size = new System.Drawing.Size(141, 23);
-            this.labelEmployee3Title.TabIndex = 15;
+            this.labelEmployee3Title.TabIndex = 5;
             this.labelEmployee3Title.Text = "Employee &3";
             this.labelEmployee3Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -201,8 +204,9 @@ namespace AverageUnitsShipped
             this.labelAverageEmployee3.Location = new System.Drawing.Point(327, 269);
             this.labelAverageEmployee3.Name = "labelAverageEmployee3";
             this.labelAverageEmployee3.Size = new System.Drawing.Size(141, 23);
-            this.labelAverageEmployee3.TabIndex = 14;
+            this.labelAverageEmployee3.TabIndex = 11;
             this.labelAverageEmployee3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.toolTip.SetToolTip(this.labelAverageEmployee3, "Displays average of Employee 3.");
             // 
             // formAverageUnitsShipped
             // 
